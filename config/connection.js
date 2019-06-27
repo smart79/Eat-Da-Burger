@@ -9,7 +9,7 @@ var connection = mysql.createConnection({
     password: "",
     database: "burgers_db"
 });
-}
+
 
 //connection
 connection.connect(function (err) {
@@ -20,5 +20,5 @@ connection.connect(function (err) {
     console.log("connected as id " + connection.threadId);
 });
 
-// Export connection for our ORM to use.
+// Export connection for the ORM to use.
 module.exports = connection;
