@@ -74,3 +74,5 @@ var orm = {
         });
     }
 };
+// Export ORM
+module.exports = orm;
