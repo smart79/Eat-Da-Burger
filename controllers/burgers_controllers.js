@@ -23,3 +23,4 @@ router.put("/burgers/:id", function (req, res) {
         // Send back response and let page reload from .then in Ajax
         res.sendStatus(200);
     });
+    module.exports = router;
