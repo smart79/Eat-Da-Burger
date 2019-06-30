@@ -1,24 +1,24 @@
 INSERT INTO burgers
-    (burger_name)
+    (burger_name, devoured)
 VALUES
-    ('Hamburger');
+    ('Hamburger', False);
 INSERT INTO burgers
-    (burger_name)
+    (burger_name, devoured)
 VALUES
-    ('Cheeseburger');
+    ('Cheeseburger', False);
 INSERT INTO burgers
-    (burger_name)
+    (burger_name, devoured)
 VALUES
-    ('Soy burger');
+    ('Soy burger', False);
 INSERT INTO burgers
-    (burger_name)
+    (burger_name, devoured)
 VALUES
-    ('Turkey burger');
+    ('Turkey burger', False);
 INSERT INTO burgers
-    (burger_name)
+    (burger_name, devoured)
 VALUES
-    ('Chicken burger');
+    ('Chicken burger', False);
 INSERT INTO burgers
-    (burger_name)
+    (burger_name, devoured)
 VALUES
-    ('Veggie burger');
+    ('Veggie burger', False);
